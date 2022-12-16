@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+*{
+    padding:0;
+    margin:0;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display',sans-serif;
+    position:relative;
+    font-size: small;
+    background-color: lightblue;
+    min-height: 100vh;
+}
+.container-box{
+width: 310px;
+position:absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+max-width: 450px;
+background-color: white;
+border-radius: 15px;
+overflow: hidden;
+}
+.content-all{
+padding: 7%;
+text-align: center;
+}
+.title{
+   /* padding: 10px;  */
+color: rgb(9, 9, 59);
+font-weight: 900;
+margin-bottom: 20px;
+font-size: 22px;
+}
+.content-all p.text{
+color: grey;
+margin-bottom: 25px;
+}
+.plan{
+    margin: 20px;
+    background-color: rgb(246, 250, 249);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan .plan-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+ .plan-box div{
+    margin-left: 20px;
+}
+.plan-box  div h5{
+    font-weight: 900;
+    font-size: 15px;
+} 
+.proceed-to-payment{
+    background-color: blue;
+    border: 0;
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+}
+.cancelbtn{
+    margin:5px;
+    padding:5px;
+    border: 0;
+    color:gray;
+    background-color: white;
+}
